@@ -2,9 +2,10 @@
 #include "/usr/local/include/leptonica/allheaders.h"
 #include "/usr/local/include/tesseract/baseapi.h"
 #else
-#include <leptonica/allheaders.h>
-#include <tesseract/baseapi.h>
+#include </usr/local/Cellar/leptonica/1.82.0/include/leptonica/allheaders.h>
+#include </usr/local/Cellar/tesseract/4.1.1/include/tesseract/baseapi.h>
 #endif
+
 
 #include <stdio.h>
 #include <unistd.h>
